@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true
+    }
+  },
+  "extensions": {
+    "mcp": {
+      "serverName": "stay-mcp",
+      "serverVersion": "1.0.0",
+      "instructions": "Tools for finding, quoting, booking and cancelling short stays. find_stays and quote_stay only read. book_stay and cancel_stay change bookings and need an explicit yes from the user; call them with confirm=true only after the user agreed to the quoted total or the cancellation."
+    }
+  }
+}

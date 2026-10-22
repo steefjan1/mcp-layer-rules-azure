@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: mcp-layer-rules-azure
+metadata:
+  template: mcp-layer-rules-azure@1.0.0
+infra:
+  provider: bicep
+  path: infra
+services:
+  stayapi:
+    project: src/StayApi
+    language: dotnet
+    host: function
+  staymcp:
+    project: src/StayMcp
+    language: dotnet
+    host: function

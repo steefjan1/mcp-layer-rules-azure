@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "STORE_CONNECTION": "UseDevelopmentStorage=true",
+    "AUTH_MODE": "local",
+    "QUOTE_TTL_MINUTES": "15",
+    "QUOTE_KEY_ID": "local-dev-key"
+  },
+  "Host": {
+    "LocalHttpPort": 7071
+  }
+}

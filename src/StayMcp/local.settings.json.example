@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "STAY_API_BASE_URL": "http://localhost:7071/api",
+    "AUTH_MODE": "local",
+    "LOCAL_ROLES": "Stays.Read,Bookings.Create",
+    "STAY_API_APP_ID_URI": ""
+  },
+  "Host": {
+    "LocalHttpPort": 7072
+  }
+}
